@@ -66,11 +66,12 @@
             values: [],
             headers: 
                 [
-                    { text: "orderMenuId", value: "orderMenuId" },
                     { text: "orderId", value: "orderId" },
                     { text: "menuId", value: "menuId" },
                     { text: "quantity", value: "quantity" },
-                    { text: "menuStatus", value: "menuStatus" },
+                    { text: "orderStatus", value: "orderStatus" },
+                    { text: "tableIdx", value: "tableIdx" },
+                    { text: "createdAt", value: "createdAt" },
                 ],
             ordermenu : [],
             newValue: {},
@@ -88,11 +89,12 @@
             this.values = temp.data._embedded.ordermenus;
 
             this.newValue = {
-                'orderMenuId': 0,
                 'orderId': 0,
                 'menuId': 0,
                 'quantity': 0,
-                'menuStatus': '',
+                'orderStatus': '',
+                'tableIdx': 0,
+                'createdAt': '2024-09-12',
             }
         },
         methods: {

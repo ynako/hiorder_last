@@ -47,6 +47,9 @@
                             <v-list-item-subtitle>
                                 ImageUrl :  {{item.imageUrl }}
                             </v-list-item-subtitle>
+                            <v-list-item-subtitle>
+                                OrderId :  {{item.orderId }}
+                            </v-list-item-subtitle>
                         </v-list-item-content>
 
                         <v-list-item-action>
@@ -98,6 +101,8 @@
                 if(val != undefined) {
                     var arr = this.list[val]._links.self.href.split('/');
                     obj['menuId'] = arr[4]; 
+                    
+                    
                     
                     
                     

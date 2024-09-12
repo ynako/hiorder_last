@@ -16,11 +16,12 @@
         </v-card-title >        
 
         <v-card-text>
-            <Number v-if="editMode" label="OrderMenuId" v-model="value.orderMenuId" :editMode="editMode" :inputUI="''"/>
-            <Number label="OrderId" v-model="value.orderId" :editMode="editMode" :inputUI="''"/>
+            <Number v-if="editMode" label="OrderId" v-model="value.orderId" :editMode="editMode" :inputUI="''"/>
             <Number label="MenuId" v-model="value.menuId" :editMode="editMode" :inputUI="''"/>
             <Number label="Quantity" v-model="value.quantity" :editMode="editMode" :inputUI="''"/>
-            <String label="MenuStatus" v-model="value.menuStatus" :editMode="editMode" :inputUI="''"/>
+            <String label="OrderStatus" v-model="value.orderStatus" :editMode="editMode" :inputUI="''"/>
+            <Number label="TableIdx" v-model="value.tableIdx" :editMode="editMode" :inputUI="''"/>
+            <Date label="CreatedAt" v-model="value.createdAt" :editMode="editMode" :inputUI="''"/>
         </v-card-text>
 
         <v-card-actions>

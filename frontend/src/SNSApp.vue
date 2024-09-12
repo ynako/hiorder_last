@@ -58,17 +58,6 @@
                     </v-list-item>
 
 
-                    <v-list-item
-                        class="px-2"
-                        key="users"
-                        to="/logins/users"
-                        @click="changeUrl()"
-                        color="primary"
-                        style="font-weight:700;"
-                    >
-                        user
-                    </v-list-item>
-
 
                     <v-list-item
                         class="px-2"
@@ -172,13 +161,6 @@ export default {
                 description: '', 
                 key: 'menus', 
                 route: '/menus/menus',
-                ImageUrl: '',
-            },
-            { 
-                title: 'user', 
-                description: '', 
-                key: 'users', 
-                route: '/logins/users',
                 ImageUrl: '',
             },
             { 

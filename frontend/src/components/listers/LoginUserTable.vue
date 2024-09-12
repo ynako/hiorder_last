@@ -67,7 +67,7 @@
             headers: 
                 [
                     { text: "userId", value: "userId" },
-                    { text: "type", value: "type" },
+                    { text: "comment", value: "comment" },
                     { text: "userName", value: "userName" },
                     { text: "password", value: "password" },
                     { text: "tableCnt", value: "tableCnt" },
@@ -89,7 +89,7 @@
 
             this.newValue = {
                 'userId': '',
-                'type': '',
+                'comment': '',
                 'userName': '',
                 'password': '',
                 'tableCnt': 0,

@@ -15,9 +15,6 @@
                             <v-list-item-title>
                             </v-list-item-title>
                             <v-list-item-subtitle>
-                                OrderMenuId :  {{item.orderMenuId }}
-                            </v-list-item-subtitle>
-                            <v-list-item-subtitle>
                                 OrderId :  {{item.orderId }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
@@ -27,7 +24,13 @@
                                 Quantity :  {{item.quantity }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
-                                MenuStatus :  {{item.menuStatus }}
+                                OrderStatus :  {{item.orderStatus }}
+                            </v-list-item-subtitle>
+                            <v-list-item-subtitle>
+                                TableIdx :  {{item.tableIdx }}
+                            </v-list-item-subtitle>
+                            <v-list-item-subtitle>
+                                CreatedAt :  {{item.createdAt }}
                             </v-list-item-subtitle>
                         </v-list-item-content>
 
@@ -79,7 +82,9 @@
                 var obj = {}
                 if(val != undefined) {
                     var arr = this.list[val]._links.self.href.split('/');
-                    obj['orderMenuId'] = arr[4]; 
+                    obj['orderId'] = arr[4]; 
+                    
+                    
                     
                     
                     

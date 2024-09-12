@@ -110,7 +110,7 @@
             
             me.newValue = {
                 'userId': '',
-                'type': '',
+                'comment': '',
                 'userName': '',
                 'password': '',
                 'tableCnt': 0,

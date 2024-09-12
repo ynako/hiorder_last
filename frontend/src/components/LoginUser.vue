@@ -17,7 +17,7 @@
 
         <v-card-text>
             <String v-if="editMode" label="UserId" v-model="value.userId" :editMode="editMode" :inputUI="''"/>
-            <String label="Type" v-model="value.type" :editMode="editMode" :inputUI="''"/>
+            <String label="Comment" v-model="value.comment" :editMode="editMode" :inputUI="''"/>
             <String label="UserName" v-model="value.userName" :editMode="editMode" :inputUI="''"/>
             <String label="Password" v-model="value.password" :editMode="editMode" :inputUI="''"/>
             <Number label="TableCnt" v-model="value.tableCnt" :editMode="editMode" :inputUI="''"/>

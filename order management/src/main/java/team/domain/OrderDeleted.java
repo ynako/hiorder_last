@@ -11,7 +11,6 @@ import team.infra.AbstractEvent;
 @ToString
 public class OrderDeleted extends AbstractEvent {
 
-    private Long orderMenuId;
     private Long orderId;
 
     public OrderDeleted(Ordermenu aggregate) {

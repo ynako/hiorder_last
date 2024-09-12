@@ -9,7 +9,7 @@
                 <String label="UserId" v-model="item.userId" :editMode="editMode" @change="change" />
             </div>
             <div>
-                <String label="Type" v-model="item.type" :editMode="editMode" @change="change" />
+                <String label="Comment" v-model="item.comment" :editMode="editMode" @change="change" />
             </div>
             <div>
                 <String label="UserName" v-model="item.userName" :editMode="editMode" @change="change" />

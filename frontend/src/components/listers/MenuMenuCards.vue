@@ -120,6 +120,7 @@
                 'accOrderCount': 0,
                 'isHot': false,
                 'imageUrl': '',
+                'orderId': {},
             }
         },
         methods:{

@@ -50,11 +50,11 @@
 
                         <v-list-item-subtitle style="font-size:25px; font-weight:700;">
                             [ OrderId :  {{data.orderId }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            [ UserId :  {{data.userId }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ MenuId :  {{data.menuId }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            [ Orderdate :  {{data.orderdate }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            [ TotalPrice :  {{data.totalPrice }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            [ CreatedAt :  {{data.createdAt }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ OrderStatus :  {{data.orderStatus }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            [ TableIdx :  {{data.tableIdx }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            [ Quantity :  {{data.quantity }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </v-list-item-subtitle>
 
                     </v-list-item-content>
@@ -123,11 +123,11 @@
             
             this.newValue = {
                 'orderId': 0,
-                'userId': 0,
                 'menuId': '',
-                'orderdate': '2024-09-11',
-                'totalPrice': 0,
+                'createdAt': '2024-09-12',
                 'orderStatus': '',
+                'tableIdx': 0,
+                'quantity': 0,
             }
         },
         methods: {

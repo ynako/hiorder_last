@@ -20,7 +20,7 @@ spring:
         - id: login
           uri: http://localhost:8084
           predicates:
-            - Path=/users/**, 
+            - Path=, 
         - id: order management
           uri: http://localhost:8085
           predicates:
@@ -60,7 +60,7 @@ spring:
         - id: login
           uri: http://login:8080
           predicates:
-            - Path=/users/**, 
+            - Path=, 
         - id: order management
           uri: http://orderManagement:8080
           predicates:

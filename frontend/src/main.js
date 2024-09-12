@@ -49,7 +49,6 @@ pluralCaseList.push( {plural: "orders/orders", pascal: "OrderOrder"} )
 
 pluralCaseList.push( {plural: "menus/menus", pascal: "MenuMenu"} )
 
-pluralCaseList.push( {plural: "logins/users", pascal: "LoginUser"} )
 
 pluralCaseList.push( {plural: "orderManagements/ordermenus", pascal: "OrderManagementOrdermenu"} )
 

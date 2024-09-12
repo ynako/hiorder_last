@@ -11,8 +11,6 @@ import OrderOrderDetail from "./components/listers/OrderOrderDetail"
 import MenuMenuManager from "./components/listers/MenuMenuCards"
 import MenuMenuDetail from "./components/listers/MenuMenuDetail"
 
-import LoginUserManager from "./components/listers/LoginUserCards"
-import LoginUserDetail from "./components/listers/LoginUserDetail"
 
 import OrderManagementOrdermenuManager from "./components/listers/OrderManagementOrdermenuCards"
 import OrderManagementOrdermenuDetail from "./components/listers/OrderManagementOrdermenuDetail"
@@ -44,16 +42,6 @@ export default new Router({
                 component: MenuMenuDetail
             },
 
-            {
-                path: '/logins/users',
-                name: 'LoginUserManager',
-                component: LoginUserManager
-            },
-            {
-                path: '/logins/users/:id',
-                name: 'LoginUserDetail',
-                component: LoginUserDetail
-            },
 
             {
                 path: '/orderManagements/ordermenus',
