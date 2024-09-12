@@ -18,7 +18,7 @@
                                 UserId :  {{item.userId }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
-                                Type :  {{item.type }}
+                                Comment :  {{item.comment }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
                                 UserName :  {{item.userName }}

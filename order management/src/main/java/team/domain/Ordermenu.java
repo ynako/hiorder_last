@@ -18,15 +18,17 @@ public class Ordermenu {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long orderMenuId;
-
     private Long orderId;
 
     private Long menuId;
 
     private Integer quantity;
 
-    private String menuStatus;
+    private String orderStatus;
+
+    private Integer tableIdx;
+
+    private Date createdAt;
 
     @PostPersist
     public void onPostPersist() {

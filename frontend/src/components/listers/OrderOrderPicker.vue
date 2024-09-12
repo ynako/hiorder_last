@@ -18,19 +18,19 @@
                                 OrderId :  {{item.orderId }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
-                                UserId :  {{item.userId }}
-                            </v-list-item-subtitle>
-                            <v-list-item-subtitle>
                                 MenuId :  {{item.menuId }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
-                                Orderdate :  {{item.orderdate }}
-                            </v-list-item-subtitle>
-                            <v-list-item-subtitle>
-                                TotalPrice :  {{item.totalPrice }}
+                                CreatedAt :  {{item.createdAt }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
                                 OrderStatus :  {{item.orderStatus }}
+                            </v-list-item-subtitle>
+                            <v-list-item-subtitle>
+                                TableIdx :  {{item.tableIdx }}
+                            </v-list-item-subtitle>
+                            <v-list-item-subtitle>
+                                Quantity :  {{item.quantity }}
                             </v-list-item-subtitle>
                         </v-list-item-content>
 

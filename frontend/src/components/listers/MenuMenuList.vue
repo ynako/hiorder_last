@@ -51,6 +51,7 @@
                             
                             
                             
+                            
                         </v-list-item-title>
 
                         <v-list-item-subtitle style="font-size:25px; font-weight:700;">
@@ -65,6 +66,7 @@
                             [ AccOrderCount :  {{data.accOrderCount }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ IsHot :  {{data.isHot }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ ImageUrl :  {{data.imageUrl }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            [ OrderId :  {{data.orderId }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </v-list-item-subtitle>
 
                     </v-list-item-content>
@@ -143,6 +145,7 @@
                 'accOrderCount': 0,
                 'isHot': false,
                 'imageUrl': '',
+                'orderId': {},
             }
         },
         methods: {

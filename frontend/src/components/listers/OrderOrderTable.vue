@@ -67,11 +67,11 @@
             headers: 
                 [
                     { text: "orderId", value: "orderId" },
-                    { text: "userId", value: "userId" },
                     { text: "menuId", value: "menuId" },
-                    { text: "orderdate", value: "orderdate" },
-                    { text: "totalPrice", value: "totalPrice" },
+                    { text: "createdAt", value: "createdAt" },
                     { text: "orderStatus", value: "orderStatus" },
+                    { text: "tableIdx", value: "tableIdx" },
+                    { text: "quantity", value: "quantity" },
                 ],
             order : [],
             newValue: {},
@@ -90,11 +90,11 @@
 
             this.newValue = {
                 'orderId': 0,
-                'userId': 0,
                 'menuId': '',
-                'orderdate': '2024-09-11',
-                'totalPrice': 0,
+                'createdAt': '2024-09-12',
                 'orderStatus': '',
+                'tableIdx': 0,
+                'quantity': 0,
             }
         },
         methods: {

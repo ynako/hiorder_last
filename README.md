@@ -35,19 +35,18 @@ mvn spring-boot:run
 ## Test by API
 - order
 ```
- http :8088/orders orderId="orderId" userId="userId" menuId="menuId" orderdate="orderdate" totalPrice="totalPrice" orderStatus="orderStatus" 
+ http :8088/orders orderId="orderId" menuId="menuId" createdAt="createdAt" orderStatus="orderStatus" tableIdx="tableIdx" quantity="quantity" 
 ```
 - menu
 ```
- http :8088/menus menuId="menuId" menuName="menuName" description="description" price="price" isAvailable="isAvailable" category="category" discount="discount" todayOrderCount="todayOrderCount" accOrderCount="accOrderCount" isHot="isHot" imageUrl="imageUrl" 
+ http :8088/menus menuId="menuId" menuName="menuName" description="description" price="price" isAvailable="isAvailable" category="category" discount="discount" todayOrderCount="todayOrderCount" accOrderCount="accOrderCount" isHot="isHot" imageUrl="imageUrl" orderId="orderId" 
 ```
 - login
 ```
- http :8088/users userId="userId" type="type" userName="userName" password="password" tableCnt="tableCnt" 
 ```
 - order management
 ```
- http :8088/ordermenus orderMenuId="orderMenuId" orderId="orderId" menuId="menuId" quantity="quantity" menuStatus="menuStatus" 
+ http :8088/ordermenus orderId="orderId" menuId="menuId" quantity="quantity" orderStatus="orderStatus" tableIdx="tableIdx" createdAt="createdAt" 
 ```
 
 

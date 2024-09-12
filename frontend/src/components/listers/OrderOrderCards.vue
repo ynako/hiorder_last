@@ -110,11 +110,11 @@
             
             me.newValue = {
                 'orderId': 0,
-                'userId': 0,
                 'menuId': '',
-                'orderdate': '2024-09-11',
-                'totalPrice': 0,
+                'createdAt': '2024-09-12',
                 'orderStatus': '',
+                'tableIdx': 0,
+                'quantity': 0,
             }
         },
         methods:{

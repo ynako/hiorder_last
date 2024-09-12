@@ -17,9 +17,6 @@ import team.domain.*;
 @Transactional
 public class PolicyHandler {
 
-    @Autowired
-    UserRepository userRepository;
-
     @StreamListener(KafkaProcessor.INPUT)
     public void whatever(@Payload String eventString) {}
 }

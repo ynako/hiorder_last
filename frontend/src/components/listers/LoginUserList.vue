@@ -49,7 +49,7 @@
 
                         <v-list-item-subtitle style="font-size:25px; font-weight:700;">
                             [ UserId :  {{data.userId }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            [ Type :  {{data.type }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            [ Comment :  {{data.comment }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ UserName :  {{data.userName }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ Password :  {{data.password }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ TableCnt :  {{data.tableCnt }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -121,7 +121,7 @@
             
             this.newValue = {
                 'userId': '',
-                'type': '',
+                'comment': '',
                 'userName': '',
                 'password': '',
                 'tableCnt': 0,

@@ -9,19 +9,19 @@
                 <Number label="OrderId" v-model="item.orderId" :editMode="editMode" @change="change" />
             </div>
             <div>
-                <Number label="UserId" v-model="item.userId" :editMode="editMode" @change="change" />
-            </div>
-            <div>
                 <String label="MenuId" v-model="item.menuId" :editMode="editMode" @change="change" />
             </div>
             <div>
-                <Date label="Orderdate" v-model="item.orderdate" :editMode="editMode" @change="change" />
-            </div>
-            <div>
-                <Number label="TotalPrice" v-model="item.totalPrice" :editMode="editMode" @change="change" />
+                <Date label="CreatedAt" v-model="item.createdAt" :editMode="editMode" @change="change" />
             </div>
             <div>
                 <String label="OrderStatus" v-model="item.orderStatus" :editMode="editMode" @change="change" />
+            </div>
+            <div>
+                <Number label="TableIdx" v-model="item.tableIdx" :editMode="editMode" @change="change" />
+            </div>
+            <div>
+                <Number label="Quantity" v-model="item.quantity" :editMode="editMode" @change="change" />
             </div>
         </v-card-text>
 

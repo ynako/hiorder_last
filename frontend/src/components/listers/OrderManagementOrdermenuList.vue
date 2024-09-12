@@ -45,14 +45,16 @@
                             
                             
                             
+                            
                         </v-list-item-title>
 
                         <v-list-item-subtitle style="font-size:25px; font-weight:700;">
-                            [ OrderMenuId :  {{data.orderMenuId }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ OrderId :  {{data.orderId }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ MenuId :  {{data.menuId }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ Quantity :  {{data.quantity }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            [ MenuStatus :  {{data.menuStatus }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            [ OrderStatus :  {{data.orderStatus }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            [ TableIdx :  {{data.tableIdx }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            [ CreatedAt :  {{data.createdAt }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </v-list-item-subtitle>
 
                     </v-list-item-content>
@@ -120,11 +122,12 @@
             this.values = temp.data._embedded.ordermenus;
             
             this.newValue = {
-                'orderMenuId': 0,
                 'orderId': 0,
                 'menuId': 0,
                 'quantity': 0,
-                'menuStatus': '',
+                'orderStatus': '',
+                'tableIdx': 0,
+                'createdAt': '2024-09-12',
             }
         },
         methods: {

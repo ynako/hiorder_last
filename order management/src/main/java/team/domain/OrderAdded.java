@@ -11,11 +11,12 @@ import team.infra.AbstractEvent;
 @ToString
 public class OrderAdded extends AbstractEvent {
 
-    private Long orderMenuId;
     private Long orderId;
     private Long menuId;
     private Integer quantity;
-    private String menuStatus;
+    private String orderStatus;
+    private Integer tableIdx;
+    private Date createdAt;
 
     public OrderAdded(Ordermenu aggregate) {
         super(aggregate);

@@ -109,11 +109,12 @@
             me.values = temp.data._embedded.ordermenus;
             
             me.newValue = {
-                'orderMenuId': 0,
                 'orderId': 0,
                 'menuId': 0,
                 'quantity': 0,
-                'menuStatus': '',
+                'orderStatus': '',
+                'tableIdx': 0,
+                'createdAt': '2024-09-12',
             }
         },
         methods:{
